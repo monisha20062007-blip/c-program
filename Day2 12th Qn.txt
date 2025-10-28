@@ -1,0 +1,20 @@
+Q12.Write a C Program to print your marks in 5 subjects each on a new line.
+
+#include <stdio.h>
+
+int main() {
+    int sub1, sub2, sub3, sub4, sub5;
+
+    // Input marks for 5 subjects
+    printf("Enter marks for 5 subjects:\n");
+    scanf("%d%d%d%d%d", &sub1, &sub2, &sub3, &sub4, &sub5);
+
+    // Print marks each on a new line
+    printf("Marks in Subject 1: %d\n", sub1);
+    printf("Marks in Subject 2: %d\n", sub2);
+    printf("Marks in Subject 3: %d\n", sub3);
+    printf("Marks in Subject 4: %d\n", sub4);
+    printf("Marks in Subject 5: %d\n", sub5);
+
+    return 0;
+}

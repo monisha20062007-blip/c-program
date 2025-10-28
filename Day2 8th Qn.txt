@@ -1,0 +1,16 @@
+Q8.Write a C Program to print the character for given ASCII value.
+
+#include <stdio.h>
+
+int main() {
+    int ascii;
+
+    // Input ASCII value
+    printf("Enter an ASCII value: ");
+    scanf("%d", &ascii);
+
+    // Print corresponding character
+    printf("The character for ASCII value %d is '%c'\n", ascii, ascii);
+
+    return 0;
+}

@@ -1,0 +1,8 @@
+Q1.Write a C Program to Print Welcome.
+
+Program:
+#include <stdio.h>
+int main(){
+    printf("Welcome");
+    return 0;
+}

@@ -1,0 +1,19 @@
+Q2.Write a C Program to check whether two numbers are equal True if equal else False.
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    // Input two numbers
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // Check equality
+    if (num1 == num2)
+        printf("True");
+    else
+        printf("False");
+
+    return 0;
+}

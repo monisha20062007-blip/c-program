@@ -1,0 +1,16 @@
+Q4.Write a C Program to print the given integer number.
+
+#include <stdio.h>
+
+int main() {
+    int num;  // Variable declaration
+
+    // Input from user
+    printf("Enter an integer number: ");
+    scanf("%d", &num);
+
+    // Output the entered number
+    printf("The given integer number is: %d\n", num);
+
+    return 0;
+}
