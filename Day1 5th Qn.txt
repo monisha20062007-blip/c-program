@@ -1,16 +1,10 @@
 Q5.Write a C Program to print the given fractional(float) number.
 
-#include <stdio.h>
-
+#include <stdio.h>
 int main() {
-    float num;  // Variable declaration
-
-    // Input from user
+    float num;
     printf("Enter a fractional (float) number: ");
-    scanf("%f", &num);
-
-    // Output the entered number
-    printf("The given fractional number is: %f\n", num);
-
+    scanf("%f", &num);
+    printf("The given fractional number is: %f\n", num);
     return 0;
 }
