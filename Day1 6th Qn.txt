@@ -1,16 +1,10 @@
 Q6.Write a C Program to print the given fractional(float) number in 2 digit decimal format.
 
-#include <stdio.h>
-
+#include <stdio.h>
 int main() {
     float num;
-
-    // Input from user
     printf("Enter a fractional number: ");
     scanf("%f", &num);
-
-    // Print the number with 2 digits after the decimal point
-    printf("The number in 2-digit decimal format: %.2f\n", num);
-
+    printf("The number in 2-digit decimal format: %.2f\n", num);
     return 0;
 }
