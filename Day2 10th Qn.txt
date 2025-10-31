@@ -1,17 +1,12 @@
 Q10.Write a C Program to print two numbers in two lines.
 
-#include <stdio.h>
-
+#include <stdio.h>
 int main() {
     int a, b;
-
-    // Input two numbers
     printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-
+    scanf("%d %d", &a, &b);
     // Print each number in a new line
     printf("%d\n", a);
-    printf("%d\n", b);
-
+    printf("%d\n", b);
     return 0;
 }
