@@ -1,15 +1,10 @@
 4Q.Write a C Program to find the greatest of three numbers.
 
-#include <stdio.h>
-
+#include <stdio.h>
 int main() {
     int a, b, c;
-
-    // Input three numbers
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
-
-    // Check which is greatest
     if (a >= b && a >= c)
         printf("%d is the greatest number.\n", a);
     else if (b >= a && b >= c)
