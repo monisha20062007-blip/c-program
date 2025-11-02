@@ -1,0 +1,33 @@
+
+Q2. Write a C program to check whether the digits of a number are in ascending order.
+#include <stdio.h>
+
+int main() {
+    int n, last, next;
+    int isAscending = 1; // assume ascending
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    last = n % 10;  // get last digit
+    n /= 10;
+
+    while (n != 0) {
+        next = n % 10;  // get next digit
+
+        if (next > last) { // if any previous digit is greater, not ascending
+            isAscending = 0;
+            break;
+        }
+
+        last = next; // move to next pair
+        n /= 10;
+    }
+
+    if (isAscending)
+        printf("Digits are in ascending order\n");
+    else
+        printf("Digits are not in ascending order\n");
+
+    return 0;
+}
